@@ -9,7 +9,7 @@ export default class CanvasText {
 
     draw () {
         this.ctx.fillStyle = this.color
-        this.ctx.font = '75px'
+        this.ctx.font = '75px Arial'
         this.ctx.fillText(this.text, this.x, this.y)
     }
 }
